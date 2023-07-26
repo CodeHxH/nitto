@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 176px;
+
+    img {
+        margin: 0 25px;
+    }
+
+    overflow-x: scroll;
+}
+
+footer::-webkit-scrollbar {
+    -webkit-appearance: none;
+}

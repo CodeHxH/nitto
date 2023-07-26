@@ -1,0 +1,26 @@
+<nav>
+    <audio
+        src='/audio/p5.mp3'
+        id='miAudio'
+        type='audio/mpeg'
+        autoplay
+        loop
+    ></audio>
+
+    <p class='version'>V1.0.0</p>
+
+    <label class='slider'>
+        <input
+            type='range'
+            class='level'
+            id='volumenRange'
+            min='0'
+            max='1'
+            step='0.01'
+            value='1'
+        />
+        <button id='botonReproducir' class='volume-btn'>
+            <i class='volume bi bi-volume-mute-fill' id='musicon'></i>
+        </button>
+    </label>
+</nav>
