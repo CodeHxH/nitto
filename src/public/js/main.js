@@ -26,15 +26,10 @@ botonReproducir.addEventListener('click', function () {
     }
 });
 
-function load() {
-    document.getElementById('cover').classList.add('animate__slideOutRight');
-}
-
 function loadoff() {
     document.getElementById('cover').classList.add('hidden');
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(load, 3000);
-    setTimeout(loadoff, 5000);
+    setTimeout(loadoff, 1500);
 });

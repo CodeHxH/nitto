@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .main {
+        background-position: right center;
+
+        .links {
+            img {
+                width: 250px;
+            }
+        }
+
+        footer {
+            img {
+                display: none;
+            }
+        }
+    }
+}
